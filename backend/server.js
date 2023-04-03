@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 //Cors
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "https://task-manager-1ecc.onrender.com"],
   })
 );
 app.use(taskRoutes);
